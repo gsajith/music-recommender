@@ -1,4 +1,4 @@
-# Algorithm Card Generator
+# Music Recommender
 
 This mini-app generates an "algorithm card" (a piece of your music identity) based on several music keyword inputs.
 
