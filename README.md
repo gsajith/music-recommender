@@ -5,6 +5,8 @@ This mini-app generates an "algorithm card" (a piece of your music identity) bas
 On the back-end, it's using GPT-3 to derive new keywords based on the ones you provide it.
 
 ## How to Run
+(One time) Run `npm install` to install required modules.
+
 Run `npm start` to run in the mode that's set in package.json.
 
 Run `npm run production` to run in production mode.
