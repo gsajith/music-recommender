@@ -4,6 +4,10 @@ This mini-app generates an "algorithm card" based on several music keyword input
 
 On the back-end, it's using GPT-3 to derive new keywords based on the ones you provide it.
 
+## Important Note
+If you want to run this locally, you need to find a way to use HTTPS on localhost.
+This was originally written on glitch.com which worked around this problem.
+
 ## How to Run
 (One time) Run `npm install` to install required modules.
 
