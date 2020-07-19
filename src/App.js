@@ -45,10 +45,6 @@ class App extends React.Component {
         ) : (
           ""
         )}
-        
-        <div className="mhci-logo">
-          <img src="https://cdn.glitch.com/d23d20c2-ff4e-46bf-9b1a-47b838e5533e%2FJoint%20logo.png?v=1595127572481"/>
-        </div>
       </div>
     );
   }

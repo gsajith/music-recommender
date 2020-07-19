@@ -186,38 +186,8 @@ export default class StartPage extends React.Component {
               if (!waiting) {
                 this.getCardResponse();
               }
-
-              if (
-                window.DeviceOrientationEvent !== undefined &&
-                window.DeviceOrientationEvent.requestPermission === "function"
-              ) {
-              } else {
-              }
-
-              if (window.DeviceOrientationEvent != undefined) {
-                if (window.DeviceOrientationEvent.requestPermission instanceof Function) {
-                  
-                window.DeviceOrientationEvent.requestPermission()
-                  .then(function(response) {
-                    if (response == "granted") {
-                      window.addEventListener(
-                        "deviceorientation",
-                        window.handleOrientation,
-                        true
-                      );
-                    }
-                  })
-                  .catch(function(error) {
-                    console.error(
-                      "Unable to use DeviceOrientation API:",
-                      error
-                    );
-                  });
-                }
-              }
-            }}
           >
-            Generate Algorithm Card
+            Generate Recommendations 
           </button>
 
           <ProgressBar width={100} percent={percent} />

@@ -5,12 +5,9 @@
   position: fixed;
   top: 0;
   z-index: 0;
-  transform: translateZ(-900px);
 }
 
 .result-card {
-  transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
   background: white;
   position: absolute;
   
@@ -61,7 +58,6 @@
   text-align: center;
   padding-top: 24px;
   text-shadow: 4px 4px 6px rgba(0,0,0,0.64);
-  transform: translateZ(10px);
 }
 
 .result-card-metadata, .result-card-tags {
@@ -71,7 +67,6 @@
   font-weight: 600;
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.64);
-  transform: translateZ(10px);
 }
 
 .result-card-item-container {
@@ -79,7 +74,6 @@
   flex-wrap: wrap;
   padding: 24px;
   justify-content: center;
-  transform: translateZ(35px);
 }
 
 .result-card-item {
