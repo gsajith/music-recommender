@@ -1,6 +1,6 @@
 # Music Recommender
 
-This mini-app generates an "algorithm card" (a piece of your music identity) based on several music keyword inputs.
+This mini-app generates an "algorithm card" based on several music keyword inputs.
 
 On the back-end, it's using GPT-3 to derive new keywords based on the ones you provide it.
 
