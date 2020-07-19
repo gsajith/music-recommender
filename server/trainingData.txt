@@ -1,0 +1,30 @@
+The following takes a list of music-related keywords, and outputs a list of 10 real artists and genres which are related to those keywords. The output list does not repeat any words in the input list.
+
+""""""""""""""""""""""
+
+Input: Pop,Billie Eilish
+Output: Pop,Alternative,Electro-pop,Taylor Swift,Lady Gaga,Lorde,Female vocalists,Indie Pop,Halsey,Lana Del Rey
+
+Input: Trey Songz,Soul,rnb
+Output: Smooth,R&B,Male vocalists,Urban,Hip-hop,Usher,Mario,Omarion,Jeremih,Mary J. Blige
+
+Input: Country,Chris Brown,Luke Bryan
+Output: Country,Folk,Alternative Country,Zac Brown Band,Eric Church,Jake Owen,Blake Shelton,Johnny Cash,Usher,Ne-Yo
+
+Input: Panic! at the Disco,Pop Punk,Fall Out Boy,Green Day
+Output: Punk,Pop Punk,Alternative Rock,Alternative,Pop,Death Cab for Cutie,Panic! at the Disco,Paramore,Yellowcard,Fickle Friends,American Authors
+
+Input: Nirvana,Rock,Queen,Hard Rock
+Output: Psychedelic rock,Alternative,Radiohead,Incubus,U2,Pearl Jam,St. Vincent,Green Day,Classic Rock,Pink Floyd,Post-hardcore
+
+Input: Trey Songz
+Output: Alternative,R&B,Male vocalists,Soul,Pop,Usher,R. Kelly,Mariah Carey,R. Kelly,Trey Songz,D'Angelo
+
+Input: Jeremih
+Output: Alternative,R&B,Male vocalists,Hip-hop,Soul,Alternative R&B,Jhene Aiko,Miguel,Ty Dolla Sign,Jeremih,Kid Ink
+
+Input: Nirvana,Jeremih,Pat Benatar
+Output: Alternative rock,Alternative R&B,Male vocalists,Soul,Pop,Modern Rock,Hip-hop,Alternative rock,OutKast,R&B,Hip-hop
+
+Input: Trap
+Output: Fetty Wap,A$AP Ferg,Waka Flocka Flame,Gucci Mane,Rap,Hip-hop,Dubstep,Electronic,Migos,Future

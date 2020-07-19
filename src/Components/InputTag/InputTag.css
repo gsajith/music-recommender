@@ -1,0 +1,72 @@
+.input-tag {
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 8px 0;
+}
+
+.input-tag input {
+  border: none;
+  width:100%;
+  padding: 8px;
+  margin-left: -4px;
+}
+
+.input-tag__tags {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.input-tag__tags li {
+  -webkit-box-align: center;
+          align-items: center;
+  background: #643FE0;
+  border-radius: 8px;
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  font-weight: 300;
+  list-style: none;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  padding: 8px 8px;
+}
+
+.input-tag__tags li button {
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #ffffff;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight:900;
+  height: 16px;
+  -webkit-box-pack: center;
+          justify-content: center;
+  line-height: 0;
+  margin-left: 8px;
+  padding: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 16px;
+}
+
+.input-tag__tags li.input-tag__tags__input {
+  background: none;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  padding: 0;
+}

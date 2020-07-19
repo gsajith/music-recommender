@@ -1,0 +1,115 @@
+.overlay {
+  background: rgba(0, 0, 0, .25);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+  transform: translateZ(-900px);
+}
+
+.result-card {
+  transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+  background: white;
+  position: absolute;
+  
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  top: calc(50% - 280px);
+  
+  width: 350px;
+  height: 560px;
+  
+  -webkit-box-shadow: 0px 2.5182px 4.45528px rgba(0, 0, 0, 0.0702864), 0px 6.05159px 10.7067px rgba(0, 0, 0, 0.100973), 0px 11.3946px 20.1597px rgba(0, 0, 0, 0.125), 0px 20.326px 35.9615px rgba(0, 0, 0, 0.149027), 0px 38.0176px 67.2619px rgba(0, 0, 0, 0.179714), 0px 91px 161px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2.5182px 4.45528px rgba(0, 0, 0, 0.0702864), 0px 6.05159px 10.7067px rgba(0, 0, 0, 0.100973), 0px 11.3946px 20.1597px rgba(0, 0, 0, 0.125), 0px 20.326px 35.9615px rgba(0, 0, 0, 0.149027), 0px 38.0176px 67.2619px rgba(0, 0, 0, 0.179714), 0px 91px 161px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2.5182px 4.45528px rgba(0, 0, 0, 0.0702864), 0px 6.05159px 10.7067px rgba(0, 0, 0, 0.100973), 0px 11.3946px 20.1597px rgba(0, 0, 0, 0.125), 0px 20.326px 35.9615px rgba(0, 0, 0, 0.149027), 0px 38.0176px 67.2619px rgba(0, 0, 0, 0.179714), 0px 91px 161px rgba(0, 0, 0, 0.25);
+  
+  border-radius: 24px;
+  
+  z-index: 3;
+}
+
+.result-card-image {
+  background-size: cover;
+  filter: blur(6px);
+  width: 350px;
+  height: 560px;
+  z-index: 0;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.result-card-content-container {
+  width: 350px;
+  height: 560px;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-card-title {
+  color: white;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 24px;
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.64);
+  transform: translateZ(10px);
+}
+
+.result-card-metadata, .result-card-tags {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.64);
+  transform: translateZ(10px);
+}
+
+.result-card-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+  justify-content: center;
+  transform: translateZ(35px);
+}
+
+.result-card-item {
+  background: rgba(0, 0, 0, .5);
+  border-radius: 32px;
+  padding: 8px 16px;
+  margin: 5px 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, .4);
+  box-shadow: 0px 0.927421px 2.85096px rgba(0, 0, 0, 0.0961057), 0px 2.34552px 7.21029px rgba(0, 0, 0, 0.13755), 0px 4.78464px 14.7083px rgba(0, 0, 0, 0.17245), 0px 9.85544px 30.2964px rgba(0, 0, 0, 0.213894), 0px 27px 83px rgba(0, 0, 0, 0.31);
+}
+
+.close-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 36px;
+  width: 36px;
+  margin: 8px;
+  cursor: pointer;
+  font-size: 32px;
+  color: white;
+  overflow: visible;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .6));
+  filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .6));
+  /* Similar syntax to box-shadow */
+}

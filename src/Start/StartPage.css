@@ -1,0 +1,50 @@
+.input-tags-wrapper {
+  width: 100%;
+  margin:auto;
+}
+
+.start-page-wrapper {
+  margin-top: 10%;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 648px) {
+  
+.start-page-wrapper {
+  width: calc(100% - 48px);
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+}
+
+.generate-button {
+  margin-top: 16px;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: .3s all;
+}
+
+.generate-button:focus {
+  outline: none;
+  background: #CEC6F6;
+}
+
+.generate-button:hover {
+  background: #CEC6F6;
+  cursor: pointer;
+}
+
+.generate-button.disabled{
+  background: white;
+  color: #cccccc;
+  border: 2px solid #cccccc;
+  cursor: default;
+}
