@@ -4,6 +4,13 @@ This mini-app generates an "algorithm card" (a piece of your music identity) bas
 
 On the back-end, it's using GPT-3 to derive new keywords based on the ones you provide it.
 
+## How to Run
+Run `npm start` to run in the mode that's set in package.json.
+
+Run `npm run production` to run in production mode.
+
+Run `npm run development` to run in development mode.
+
 ## Made with Glitch
 
 Glitch is a collaborative programming environment that lives in your browser and deploys code as you type.
