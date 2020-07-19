@@ -1,0 +1,46 @@
+If the input is a music artist, say "Artist". If it's a music genre, say "Genre". If it's unclear, say "Idk".
+
+"""""
+
+Input: Jeremih
+Output: Artist
+
+Input: rnb
+Output: Genre
+
+Input: Omarion
+Output: Artist
+
+Input: Punk Rock
+Output: Genre
+
+Input: Cardi B
+Output: Artist
+
+Input: Hiphop
+Output: Genre
+
+Input: Taylor Swift
+Output: Artist
+
+Input: Pop
+Output: Genre
+
+Input: Neo-soul
+Output: Genre
+
+Input: Neo
+Output: Genre
+
+Input: Ne-yo
+OutPut: Artist
+
+Input: blahdeblah
+Output: Idk
+
+Input: cloud
+Output: Idk
+
+Input: whatever
+Output: Idk
+
