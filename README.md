@@ -8,6 +8,8 @@ On the back-end, it's using GPT-3 to derive new keywords based on the ones you p
 If you want to run this locally, you need to find a way to use HTTPS on localhost.
 This was originally written on glitch.com which worked around this problem.
 
+The easiest workaround might be to re-import this back to Glitch and run it there.
+
 ## How to Run
 (One time) Run `npm install` to install required modules.
 
