@@ -1,8 +1,6 @@
 # Algorithm Card Generator
 
-A project for the Carnegie Mellon MHCI capstone program, 2020.
-
-This mini-app generates an "algorithm card" (a piece of your music identity) based on several keyword inputs.
+This mini-app generates an "algorithm card" (a piece of your music identity) based on several music keyword inputs.
 
 On the back-end, it's using GPT-3 to derive new keywords based on the ones you provide it.
 
